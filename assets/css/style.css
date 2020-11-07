@@ -1,0 +1,114 @@
+:root{
+    --rust: #c75f3a;
+    --mustard: #fcba03;
+}
+
+body{
+    font-family: 'oswald', 'open-sans';
+    color: #777777;
+}
+
+.logoh{
+    font-family: 'lobster', cursive;
+    color: var(--rust);
+    font-size: 300%;
+}
+
+ .navbar-brand.logoh{
+    font-family: 'lobster', cursive;
+    color: var(--rust);
+    font-size: 300%;
+}
+
+.navbar-brand.logoh:hover{
+    color: var(--rust);
+}
+
+/* Footer */
+
+.footer{
+    background-color: var(--rust);
+    color: white;
+}
+
+.footer a{color: white;}
+
+.footer h2{
+    color: white;
+}
+
+
+/* Hero Image*/
+
+.callout-container {
+    height: 100vh;  
+    
+    background-image: url("../images/indispice-hero1600short.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    margin: 25px 0px;
+    color: white;
+    background-color: var(--rust);
+    border-color: var(--rust);
+    border-radius: 10px;
+}
+
+.jumbotron .lead-2 {
+    padding: 5px;
+    display: inline;
+    color: var(--rust);
+    background-color: white;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    
+}
+
+/*Menu*/
+
+.p-divider {
+    width: 150px;
+    height: 5px;
+    border: none;
+    background-color: var(--rust);
+}
+
+.about-menu p {
+    text-align: center;
+    padding: 0px 20px;
+}
